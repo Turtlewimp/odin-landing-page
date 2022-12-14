@@ -1,2 +1,2 @@
 # odin-landing-page
-The landing page project from The Odin Project's Foundations course
+This is my attempt at the landing page project assignment from The Odin Project's Foundations course.
