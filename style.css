@@ -19,7 +19,11 @@ header {
 }
 
 .call {
+    background-color: #3882f6;
+}
 
+button {
+    background-color: #3882f6;
 }
 
 footer {
