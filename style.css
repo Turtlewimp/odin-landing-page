@@ -10,7 +10,7 @@ header {
     background-color: #1f2937;
 }
 
-.more {
+.container {
 
 }
 
@@ -24,4 +24,12 @@ header {
 
 footer {
     background-color: #1f2937;
+}
+
+header, 
+footer,
+.hero,
+.call,
+button {
+    color: white;
 }
