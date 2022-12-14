@@ -1,3 +1,20 @@
+/*color*/
+/*#1f2937: header, hero, footer, 'information header text*/
+/*#e5e7eb: quote*/
+/*#3882f6: buttons, action box, 'frames*/
+
+/*text color*/
+/*#f9faf8: header logo (24px), hero main(48px)*/
+/*#e5e7eb and 18px: header link, hero secondary*/
+
+/*font style*/
+/*information header text: 36px extra-bold*/
+/**quote: 36px light italic/
+
+
+
+
+
 footer {
     display: flex;
     justify-content: center;
