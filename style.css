@@ -32,6 +32,10 @@ button {
 
 footer {
     background-color: #1f2937;
+    padding: 16px 0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /*temp*/
