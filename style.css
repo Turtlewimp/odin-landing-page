@@ -34,6 +34,10 @@ section {
     justify-content: center;
 }
 
+.container {
+    width: 900px;
+}
+
 .column {
     display: flex;
     flex-direction: column;
