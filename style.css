@@ -69,6 +69,9 @@ q {
 
 /*Positioning*/
 
+.container {
+    max-width: 1000px;
+}
 
 footer {
     display: flex;
