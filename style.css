@@ -74,15 +74,25 @@ section {
     justify-content: center;
 }
 
+.container {
+    max-width: 1000px;
+}
+
 .header .container {
     display: flex;
     justify-content: space-between;
     flex-basis: 1000px;
 }
 
-.container {
-    max-width: 1000px;
+.hero .container {
+    display: flex;
 }
+
+.hero .left {
+    display: flex;
+    flex-direction: column;
+}
+
 
 .footer {
     display: flex;
