@@ -35,21 +35,21 @@ body {
     margin-left: 50px;
 }
 
-button, .action 
+button, .box 
 {
     background-color: #3882F6;
+    border: 2px solid #3882F6;
+    border-radius: 8px;
 }
 
 button {
-    border: 2px solid #3882F6;
-    border-radius: 8px;
     color:#F9FAF8;
     font-weight: bold;
     width: 110px;
     height: 36px;
 }
 
-.action button {
+.box button {
     border: 2px solid #F9FAF8;
 }
 
@@ -142,8 +142,12 @@ section {
     font-weight: bold;
 }
 
+.action div {
+    display: flex;
+}
+
 .box {
-    border-radius: 8px;
+    margin: 40px 0px;
 }
 
 .footer {
