@@ -2,18 +2,7 @@ body {
     font-family: Arial, Helvetica, sans-serif;
 }
 
-/*color*/
-/*#1f2937: header, hero, footer, 'information header text*/
-/*#e5e7eb: quote*/
-/*#3882f6: buttons, action box, 'frames*/
-
-/*text color*/
-/*#f9faf8: header logo (24px), hero main(48px)*/
-/*#e5e7eb and 18px: header link, hero secondary*/
-
-/*font style*/
-/*information header text: 36px extra-bold*/
-/*quote: 36px light italic*/
+/*styling*/
 
 .header,
 .footer,
@@ -46,6 +35,11 @@ body {
     margin-left: 50px;
 }
 
+button, .action 
+{
+    background-color: #3882F6;
+}
+
 button {
     border: 2px solid #3882F6;
     border-radius: 8px;
@@ -53,11 +47,6 @@ button {
     font-weight: bold;
     width: 110px;
     height: 36px;
-}
-
-button, .action 
-{
-    background-color: #3882F6;
 }
 
 .action button {
@@ -93,7 +82,7 @@ section {
     padding: 20px;
 }
 
-.header div{
+.header div {
     display: flex;
     justify-content: space-between;
     flex-basis: 1040px;
@@ -109,11 +98,21 @@ section {
     flex: 0 1 450px;
 }
 
-
 .hero .placeholder {
     flex: 1;
 }
 
+.array div {
+    border: 2px solid pink;
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.array p {
+    text-align: center;
+}
 
 .footer {
     display: flex;
