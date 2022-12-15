@@ -102,9 +102,23 @@ section {
     flex: 1;
 }
 
+.info .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.info strong {
+    text-align: center;
+}
+
+.array {
+    display: flex;
+}
+
 .array div {
     border: 2px solid pink;
     width: 150px;
+    margin: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -112,6 +126,24 @@ section {
 
 .array p {
     text-align: center;
+}
+
+.quote .container {
+    display: flex;
+    flex-direction: column;
+}
+
+.quote q {
+    margin-left: 40px;
+}
+
+.quote p {
+    text-align: right;
+    font-weight: bold;
+}
+
+.box {
+    border-radius: 8px;
 }
 
 .footer {
