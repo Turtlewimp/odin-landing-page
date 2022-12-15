@@ -20,6 +20,8 @@
     background-color: #e5e7eb;
 }
 
+/*Positioning*/
+
 section {
     display: flex;
     justify-content: center;
