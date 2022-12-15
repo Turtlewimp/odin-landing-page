@@ -60,7 +60,7 @@ button, .action
     background-color: #E5E7EB;
 }
 
-.quote .primary {
+q {
     font-size: 36px;
     font-weight: lighter;
     font-style: italic;
