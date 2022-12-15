@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: Roboto, Arial, Helvetica, sans-serif;
 }
 
 /*styling*/
@@ -22,13 +22,6 @@ body {
     font-weight: bolder;
     color: #F9FAF8;
 }
-
-/*
-.hero .secondary {
-    font-size: 18px;
-    color: #E5E7EB;
-}
-*/
 
 .hero .placeholder {
     background-color: slategray;
@@ -86,6 +79,15 @@ section {
     display: flex;
     justify-content: space-between;
     flex-basis: 1040px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    margin-left: 20px;
 }
 
 .hero .container {
