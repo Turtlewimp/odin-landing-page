@@ -9,9 +9,11 @@
 
 /*font style*/
 /*information header text: 36px extra-bold*/
-/**quote: 36px light italic/
+/*quote: 36px light italic*/
 
-
+.container {
+    display: flex;
+}
 
 
 
