@@ -9,71 +9,78 @@
 </head>
 <body>
     <Header>
-        <div class="container">
+        <div class="container"> flex row
             Header Logo
             header links
         </div>
     </Header>
 
-    Hero part
-    <div class="container">
-        <div>
-            Hero main
-            Hero secondary
-            <button>Sign up</button>
-        </div>
-
-        <div>
-            Hero image 
-        </div>
-    </div>
-
-
-    content array part
-    <div  class="container">
-        <div>
-            content header
-        </div>
-
-        content array
-        <div>
+    <section class="hero-section">
+        <div class="container">  flex row
             <div>
-                <img src="grey_rounded_square.png">
-                content array item subtext
+                Hero main
+                Hero secondary
+                <button>Sign up</button>
             </div>
+    
             <div>
-                <img src="grey_rounded_square.png">
-                content array item subtext
-            </div>
-            <div>
-                <img src="grey_rounded_square.png">
-                content array item subtext
-            </div>
-            <div>
-                <img src="grey_rounded_square.png">
-                content array item subtext
+                Hero image 
             </div>
         </div>
-    </div>
+    </section>
 
 
-    quote part
-    <div class="container">
-        quote
-        quote reference
-    </div>
-
-    call to action part
-    <div class="container">
-        action box
-        <div> flex
-            <div> flex
-                action main
-                action secondary
+    <section class="information-section">
+        <div  class="container"> flex column
+            <div>
+                content header
             </div>
-            <button>Sign up</button>
+    
+            content array
+            <div> flex row
+                <div>
+                    <img src="grey_rounded_square.png"> max dimensions
+                    content array item subtext with max width same as image width no grow
+                </div>
+                <div>
+                    <img src="grey_rounded_square.png">
+                    content array item subtext
+                </div>
+                <div>
+                    <img src="grey_rounded_square.png">
+                    content array item subtext
+                </div>
+                <div>
+                    <img src="grey_rounded_square.png">
+                    content array item subtext
+                </div>
+            </div>
         </div>
-    </div>
+    </section>
+
+
+
+    <section class="quote-section">
+        <div class="container">
+            quote with max length no grow
+            quote reference 
+        </div>
+    </section>
+
+
+    <section class="action-section">
+        <div class="container">
+            action box with same width of container
+            <div> flex row
+                <div> flex column
+                    action main
+                    action secondary
+                </div>
+                <button>Sign up</button>
+            </div>
+        </div>
+    </section>
+
 
     <footer>
         Copyright
