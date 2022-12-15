@@ -23,12 +23,12 @@ body {
     font-size: 18px;
 }
 
-.header .primary {
+#logo {
     font-size: 24px;
     color: #F9FAF8;
 }
 
-.hero .primary {
+.hero strong {
     font-size: 48px;
     font-weight: bolder;
     color: #F9FAF8;
@@ -50,7 +50,7 @@ button, .action
     background-color: #3882F6;
 }
 
-.info .primary {
+.info strong {
     font-size: 36px;
     font-weight: bolder;
     color:#1F2937;
@@ -74,9 +74,10 @@ section {
     justify-content: center;
 }
 
-header .container {
+.header .container {
     display: flex;
     justify-content: space-between;
+    flex-basis: 1000px;
 }
 
 .container {
