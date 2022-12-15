@@ -90,9 +90,10 @@ section {
 
 .container {
     max-width: 1040px;
+    padding: 20px;
 }
 
-.header .container {
+.header div{
     display: flex;
     justify-content: space-between;
     flex-basis: 1040px;
