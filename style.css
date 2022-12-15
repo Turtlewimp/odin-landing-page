@@ -15,15 +15,15 @@ body {
 /*information header text: 36px extra-bold*/
 /*quote: 36px light italic*/
 
-header,
-footer,
+.header,
+.footer,
 .hero {
     background-color: #1F2937;
     color: #E5E7EB;
     font-size: 18px;
 }
 
-header .primary {
+.header .primary {
     font-size: 24px;
     color: #F9FAF8;
 }
@@ -69,6 +69,11 @@ q {
 
 /*Positioning*/
 
+section {
+    display: flex;
+    justify-content: center;
+}
+
 header .container {
     display: flex;
     justify-content: space-between;
@@ -78,7 +83,7 @@ header .container {
     max-width: 1000px;
 }
 
-footer {
+.footer {
     display: flex;
     justify-content: center;
     align-items: center;
