@@ -45,6 +45,11 @@ body {
     background-color: gray;
 }
 
+button {
+    border: 2px solid white;
+    border-radius: 8px;
+}
+
 button, .action 
 {
     background-color: #3882F6;
@@ -91,6 +96,12 @@ section {
 .hero .left {
     display: flex;
     flex-direction: column;
+    flex: 0 1 400px;
+}
+
+
+.hero .placeholder {
+    flex: 1;
 }
 
 
