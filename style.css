@@ -65,7 +65,7 @@ button {
 
 q {
     font-size: 36px;
-    font-weight: lighter;
+    font-weight: 100;
     font-style: italic;
     color: #1F2937;
 }
@@ -128,13 +128,18 @@ section {
     text-align: center;
 }
 
+.quote {
+    display: flex;
+}
+
 .quote .container {
     display: flex;
     flex-direction: column;
+    flex-basis: 800px;
 }
 
 .quote q {
-    margin-left: 40px;
+    margin-left: 60px;
 }
 
 .quote p {
