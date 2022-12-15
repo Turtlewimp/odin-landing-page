@@ -18,6 +18,11 @@ footer,
     color: #e5e7eb;
 }
 
+#logo {
+    color: #f9faf8;
+    font-size: 24px;
+}
+
 .gray {
     background-color: #e5e7eb;
 }
