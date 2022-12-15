@@ -89,13 +89,13 @@ section {
 }
 
 .container {
-    max-width: 960px;
+    max-width: 1040px;
 }
 
 .header .container {
     display: flex;
     justify-content: space-between;
-    flex-basis: 960px;
+    flex-basis: 1040px;
 }
 
 .hero .container {
