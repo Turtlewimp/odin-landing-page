@@ -69,6 +69,11 @@ q {
 
 /*Positioning*/
 
+header .container {
+    display: flex;
+    justify-content: space-between;
+}
+
 .container {
     max-width: 1000px;
 }
