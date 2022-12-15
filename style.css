@@ -11,12 +11,26 @@
 /*information header text: 36px extra-bold*/
 /*quote: 36px light italic*/
 
+.dark {
+    background-color: #1f2937;
+    color: #e5e7eb;
+}
+
+.gray {
+    background-color: #e5e7eb;
+}
+
 section {
     display: flex;
     justify-content: center;
 }
 
-.hero {
+.column {
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
     display: flex;
 }
 
